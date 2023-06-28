@@ -5,10 +5,20 @@
    font-family: arial;
  }
 
+img {
+  display: block;
+  position: relative;
+  height: auto;
+  width: 15vw;
+  object-fit: cover;
+  margin: auto;
+  top: 5vh;
+}
+
 form {
   position: relative;
   margin: auto;
-  top: 20vh;
+  top: 0vh;
   left: ;
   right: ;
   height: 31vh;
@@ -47,7 +57,6 @@ form>h3 {
   display: inline-block;
   left: 46%;
   font-size: .90em;
-
 }
 #email {
   position: relative;
@@ -94,7 +103,7 @@ form>h3 {
 }
 
 #new-account {
-  top: 22.5vh;
+  top: 2.5vh;
   height: 10vh;
   width: 27.5%;
   position: relative;
