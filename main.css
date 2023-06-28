@@ -1,0 +1,152 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+
+form {
+  position: relative;
+  margin: auto;
+  top: 20vh;
+  left: ;
+  right: ;
+  height: 31vh;
+  width: 30vw;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+form>h3 {
+  position: relative;
+  margin: auto;
+  margin-bottom: 2.5vh;
+  top: 1vh;
+  left: 1.75vw;
+  font-size: 1.5em;
+  display: inline-block;
+}
+#email-label {
+  position: relative;
+  left: 5%;
+  margin-bottom: 2.5vh;
+}
+
+
+#password-label {
+  display: inline-block;
+  position: relative;
+  left: 12.5%;
+
+
+}
+
+#forgot {
+  position: relative;
+  display: inline-block;
+  left: 47.5%;
+  text-align: right;
+
+}
+#email {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  text-align: left;
+  height: 3.25vh;
+  width: 90%;
+}
+
+#password {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  text-align: left;
+  height: 3.25vh;
+  width: 90%;
+
+}
+
+#continue {
+  position: relative;
+  background-color: gold;
+  margin: auto;
+  margin-bottom: 2.5vh;
+  text-align: center;
+  display: block;
+  height: 3vh;
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+#help {
+  position: relative;
+  margin: auto;
+  left: 5%;
+  text-decoration: none;
+
+}
+
+#new-account {
+  top: 22.5vh;
+  height: 10vh;
+  width: 27.5%;
+  position: relative;
+  margin: auto;
+  clear: both;
+  border-top: 1px solid lightgray;
+  display: block;
+}
+div>h5 {
+  position: relative;
+  top: -3.25vh;
+  text-align: center;
+}
+#create {
+  position: relative;
+  bottom: 4vh;
+  width: 100%;
+  height: 3vh;
+}
+
+footer {
+  bottom: 0vh;
+  margin: auto;
+  position: absolute;
+  width: 100vw;
+  border-top: 1px solid black;
+}
+
+#foot-nav {
+  position: relative;
+  margin: auto;
+  height: 10vh;
+  width: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-anchor {
+
+  font-size: .80em;
+}
+.nav-anchor>a {
+  text-decoration: none;
+}
+
+
+#copyright {
+  position: relative;
+  bottom: 6vh;
+  text-align: center;
+  font-size: .75em;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
