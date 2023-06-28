@@ -100,12 +100,30 @@ form>h3 {
   position: relative;
   margin: auto;
   clear: both;
-  border-top: 1px solid lightgray;
   display: block;
 }
+
+.decoration {
+  border-top: 1px solid lightgray;
+  height: 0vh;
+  width: 8.75vw;
+  display: inline-block;
+
+
+}
+.decoration:first-of-type {
+  position: relative;
+  left: .5%;
+}
+
+.decoration:last-of-type {
+  position: relative;
+  left: 33.5%;
+}
+
 div>h5 {
   position: relative;
-  top: -3.25vh;
+  top: -3.5vh;
   text-align: center;
 }
 #create {
