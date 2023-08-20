@@ -25,6 +25,7 @@ form {
   width: 30vw;
   border: 1px solid lightgray;
   border-radius: 4px;
+  overflow-wrap: break-word;
 }
 form>h3 {
   position: relative;
@@ -42,11 +43,21 @@ form>h3 {
   margin-bottom: 2.5vh;
 }
 
+#psw-layer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
 
 #password-label {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
   position: relative;
-  left: 3.75vw;
+  width: 28%;
+  left: ;
   font-size: .90em;
 
 
@@ -55,7 +66,7 @@ form>h3 {
 #forgot {
   position: relative;
   display: inline-block;
-  left: 46%;
+  left:;
   font-size: .90em;
 }
 #email {
